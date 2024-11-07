@@ -8,3 +8,29 @@ service_key.json
 
 #folders
 .next
+
+# Node.js specific
+node_modules/
+.npm/
+.env
+*.env.local
+# Next.js specific
+.next/
+out/
+# Logs
+logs
+*.log
+npm-debug.log*
+# OS generated files
+.DS_Store
+Thumbs.db
+# Service account files
+service_key.json
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+# Additional files containing secrets
+.key
+*.pem
+*.p12
